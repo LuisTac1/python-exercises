@@ -1,2 +1,2 @@
 Simple python project, simulating a person doing things.
-Usando a biblioteca datetime na classe pessoas.
+Using the datetime library in the people class.
