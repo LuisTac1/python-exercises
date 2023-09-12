@@ -5,7 +5,6 @@ from time import sleep
 from threading import Thread
 from threading import Lock
 
-
 # Thread
 class MyThread(Thread):
     def __init__(self, text, time):
@@ -17,7 +16,6 @@ class MyThread(Thread):
     def run(self):
         sleep(self.time)
         print(self.text)
-
 
 t1 = MyThread('Thread 1', 5)
 t1.start()
@@ -31,7 +29,6 @@ t3.start()
 for i in range(20):
     print(i)
     sleep(1)
-
 
 # Ticket purchase example
 class Tickets:
@@ -53,7 +50,6 @@ class Tickets:
         print(f'You bought {amount} ticket(s), still has {self.stock}')
 
         self.lock.release()
-
 
 if __name__ == '__main__':
     tickets = Tickets(10)
