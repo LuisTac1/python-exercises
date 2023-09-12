@@ -1,18 +1,16 @@
 """
-Simple calendar bot for discord
-Send image and text on scheduled days
-Send current day's date
+Simple calendar bot for discord.
+Send image and text on scheduled days.
+Send current day's date.
 """
 
 import discord, datetime
 from discord.ext import commands
 
-
 bot = commands.Bot("!")
 itens = discord.Intents.all
 
-
-# See bot commands
+# To see bot commands
 @bot.command(name="commands")
 async def send_date(ctx):
     response = "The calendar commands are: \n" \
@@ -20,7 +18,6 @@ async def send_date(ctx):
                "!commands (to see the calendar commands)"
     response = str(response)
     await ctx.send(response)
-
 
 # View the current day's date
 @bot.command(name="date")
@@ -30,8 +27,7 @@ async def send_date(ctx):
     response = f"Today's date is {date.month} {date.day} {date.year} " + name
     response = str(response)
     await ctx.send(response)
-
-
+    
 # Send image and text on scheduled days
 @bot.event
 async def on_ready():
@@ -50,4 +46,4 @@ async def on_ready():
         await ctx.send(embed=embed)
 
 
-bot.run("Your token")
+bot.run("Your token here")
