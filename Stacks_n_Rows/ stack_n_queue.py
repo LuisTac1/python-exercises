@@ -1,6 +1,6 @@
 """
 Stacks and Rows
-Pilha - LIFO last in, first out.
+Stacks - LIFO last in, first out.
 
 Queue - FIFO - first in, first out.
     Example: A bank queue (or any real-life queue)
