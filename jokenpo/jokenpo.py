@@ -3,11 +3,8 @@ Jokenpo (Rock, Paper n Scissors )
 """
 import random
 
- 
 moves = ['rock', 'paper', 'scissors']
-
 computer = random.choice(moves)
-
 game_on = True
 
 while game_on:
