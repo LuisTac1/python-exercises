@@ -26,7 +26,6 @@ def main(main_images_folder):
             print(widht, height)
             img_pillow.close()
 
-
 if __name__ == '__main__':
     main_images_folder = 'Your/file/path/here'
     main(main_images_folder)
