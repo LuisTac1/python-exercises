@@ -5,7 +5,6 @@ import sys
 from PyQt5.QtWidgets import QApplication, QMainWindow, QWidget, QGridLayout
 from PyQt5.QtWidgets import QPushButton, QLineEdit, QSizePolicy
 
-
 class Calculator(QMainWindow):
     def __init__(self, parent=None):
         super().__init__(parent)
@@ -84,7 +83,6 @@ class Calculator(QMainWindow):
             )
         except Exception as e:
             self.display.setText('Invalid calc.')
-
 
 if __name__ == '__main__':
     qt = QApplication(sys.argv)
