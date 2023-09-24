@@ -31,5 +31,3 @@ while True:
 
 
     print(f'{n1} {operator} {n2} = {result}')
-
-
