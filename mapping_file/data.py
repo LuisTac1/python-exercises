@@ -11,7 +11,6 @@ products =[
     {'name': 'p10', 'price': 2.90}
 ]
 
-
 people = [
     {'name': 'Louis', 'age': 12},
     {'name': 'John', 'age': 43},
@@ -24,7 +23,6 @@ people = [
     {'name': 'Max', 'age': 23},
     {'name': 'Edward', 'age': 59},
 ]
-
 
 
 list1 = [1, 2, 3, 4, 5, 6, 7, 9, 10]
