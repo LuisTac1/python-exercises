@@ -25,7 +25,6 @@ while win == False:
 
     win = True
 
-
     for x in range(0, len(discovered_letters)):
         if discovered_letters[x] == "-":
             win = False
