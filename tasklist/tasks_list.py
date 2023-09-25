@@ -21,7 +21,6 @@ def do_list(tasks):
         print(f'\t{task}')
     print()
 
-
 def undo(tasks, undo_tasks):
     print()
     if not tasks:
@@ -33,7 +32,6 @@ def undo(tasks, undo_tasks):
     undo_tasks.append(task)
     print()
 
-
 def redo(tasks, redo_task):
     print()
     if not redo_task:
@@ -44,7 +42,6 @@ def redo(tasks, redo_task):
     print(f'{task=} added to task list.')
     tasks.append(task)
     print()
-
 
 def add(task, tasks):
     print()
@@ -58,7 +55,6 @@ def add(task, tasks):
         print(f'{task=} added to task list.')
         tasks.append(task)
         print()
-
 
 tasks = []
 redo_task = []
