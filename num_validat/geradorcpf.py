@@ -1,6 +1,5 @@
 from random import randint
 
-
 def generat_num():
     number = str(randint(100000000, 999999999))
 
