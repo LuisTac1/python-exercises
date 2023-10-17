@@ -5,13 +5,11 @@ Data mapping
 from data import products, people, list1
 from functools import reduce
 
-
 new_list = map(lambda x: x * 2, list1)
 
 new_list =[x * 2 for x in list1]
 print(list1)
 print(list(new_list))
-
 
 def raise_prices(p):
     p['price'] = round(p['price'] * 1.05, 2)
@@ -53,7 +51,6 @@ for i in names:
 #     accumul += item
 
 # print(accumul)
-
 
 # sum_list1 = reduce(lambda ac, i: i + ac, list1, 0)
 
